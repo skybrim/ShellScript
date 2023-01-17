@@ -19,7 +19,7 @@ echo ">>>>>>更新repo<<<<<<"
 sudo apt update
 # 安装
 echo ">>>>>>安装 docker<<<<<<"
-sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 
 # 安装 docker-compose
 echo ">>>>>>安装 docker-compose<<<<<<"
